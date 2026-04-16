@@ -20,7 +20,7 @@ public class Main {
             }
 
             try {
-                // A partir daqui o app visual comeca de verdade.
+                // A partir daqui o app visual comeca 
                 new IndicaFacilFrame().setVisible(true);
             } catch (IllegalStateException exception) {
                 SwingDialogs.showError(null, "Falha ao iniciar o aplicativo: " + exception.getMessage());
